@@ -40,12 +40,22 @@ $aluno->insert();
 
 echo $aluno;
 */
-
+/*
+alterar um usuario
 $usuario = new Usuario();
 
 $usuario->loadById(6);
 
 $usuario->update("Paulo Cesar", "credicom@2021");
 
+echo $usuario;*/
+
+$usuario = new Usuario();
+
+$usuario->loadById(6);
+
+$usuario->delete();
+
 echo $usuario;
+
  ?>
